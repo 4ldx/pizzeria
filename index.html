@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza & Forno | Pizzería Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement -->
+  <aside class="top-announcement">
+    <span>Horno a la leña · Masa madre de fermentación lenta · Envíos directos</span>
+  </aside>
+
+  <!-- Encabezado Elegante -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand">
+        <span class="brand-title">PIZZA & FORNO</span>
+        <span class="brand-sub">PIZZERÍA ARTESANAL</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="#home">Inicio</a>
+        <a href="#menu">Carta</a>
+        <a href="#combos">Paquetes</a>
+        <a href="#pedido" class="nav-btn">Hacer Pedido</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section Sobrio -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="badge-subtitle">Tradición Napolitana</span>
+        <h1>Pizzas artesanales elaboradas al momento</h1>
+        <p class="hero-subtitle">Masa madre crujiente, vegetales frescos e ingredientes seleccionados, horneados a fuego directo de leña.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn-primary">Ver la Carta</a>
+          <a href="#pedido" class="btn-secondary">Pedido Directo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Barra de Sellos / Distinciones -->
+    <section class="trust-bar">
+      <div class="trust-item">
+        <span class="trust-number">01</span>
+        <div>
+          <h4>Masa Madre 48h</h4>
+          <p>Fermentación lenta para una digestión ligera</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-number">02</span>
+        <div>
+          <h4>Cocción a la Leña</h4>
+          <p>Horno de piedra a 450°C</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-number">03</span>
+        <div>
+          <h4>Entrega Cuidada</h4>
+          <p>Empaque térmico que conserva la textura</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menú / Carta Elegante -->
+    <section class="menu-section" id="menu">
+      <div class="section-title">
+        <span class="sub-heading">Selección Especial</span>
+        <h2>Nuestra Carta</h2>
+        <div class="divider"></div>
+        <p class="section-desc">Haga clic en las especialidades de su preferencia para estructurar su pedido.</p>
+      </div>
+
+      <div class="menu-grid">
+
+        <!-- Pizza 1 -->
+        <article class="pizza-card" data-product="Pizza Pepperoni Artisanal" data-price="190">
+          <div class="card-image">
+            <span class="card-tag">Recomendación</span>
+            <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" alt="Pizza Pepperoni" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header-info">
+              <h3>Pepperoni Artisanal</h3>
+              <span class="price">$190 <small>MXN</small></span>
+            </div>
+            <p>Salsa de tomate casera, queso mozzarella fresco, pepperoni artesanal y un toque de orégano silvestre.</p>
+            <div class="card-footer">
+              <span class="select-text">Añadir al pedido</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pizza 2 -->
+        <article class="pizza-card" data-product="Pizza Margherita Originale" data-price="170">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=800&q=80" alt="Pizza Margherita" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header-info">
+              <h3>Margherita Originale</h3>
+              <span class="price">$170 <small>MXN</small></span>
+            </div>
+            <p>Tomate San Marzano, mozzarella fior di latte, albahaca fresca y aceite de oliva virgen extra.</p>
+            <div class="card-footer">
+              <span class="select-text">Añadir al pedido</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pizza 3 -->
+        <article class="pizza-card" data-product="Pizza Quattro Formaggi & Miel" data-price="230">
+          <div class="card-image">
+            <span class="card-tag">Gourmet</span>
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Pizza 4 Quesos" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header-info">
+              <h3>Quattro Formaggi</h3>
+              <span class="price">$230 <small>MXN</small></span>
+            </div>
+            <p>Selección de Mozzarella, Gorgonzola, Parmesano Reggiano y Provolone ahumado con destellos de miel.</p>
+            <div class="card-footer">
+              <span class="select-text">Añadir al pedido</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pizza 4 -->
+        <article class="pizza-card" data-product="Pizza Carnes Frías Rústica" data-price="240">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" alt="Pizza Carnes Frías" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header-info">
+              <h3>Carnes Frías Rústica</h3>
+              <span class="price">$240 <small>MXN</small></span>
+            </div>
+            <p>Pepperoni, salchicha italiana, tocino ahumado y jamón de pavo sobre base de mozzarella fundida.</p>
+            <div class="card-footer">
+              <span class="select-text">Añadir al pedido</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Combo 5 -->
+        <article class="pizza-card" id="combos" data-product="Paquete Familiar (2 Pizzas + Entrante + Bebida 2L)" data-price="420">
+          <div class="card-image">
+            <span class="card-tag gold">Paquete Especial</span>
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Paquete Familiar" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header-info">
+              <h3>Paquete Familiar Pizza & Forno</h3>
+              <span class="price">$420 <small>MXN</small></span>
+            </div>
+            <p>Incluye 2 pizzas grandes de la carta, 1 orden de pan de ajo artesanal y bebida de 2 Litros.</p>
+            <div class="card-footer">
+              <span class="select-text">Añadir al pedido</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pizza 6 -->
+        <article class="pizza-card" data-product="Pizza Hawaiana Especial" data-price="200">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80" alt="Pizza Hawaiana" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header-info">
+              <h3>Hawaiana Especial</h3>
+              <span class="price">$200 <small>MXN</small></span>
+            </div>
+            <p>Jamón horneado, piña atizada al horno de piedra y queso mozzarella de alta calidad.</p>
+            <div class="card-footer">
+              <span class="select-text">Añadir al pedido</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Resumen del Pedido Limpio -->
+      <div class="order-panel" id="pedido">
+        <div class="panel-header">
+          <h3>Resumen de Selección</h3>
+          <p id="orderText">Seleccione los elementos de la carta para continuar.</p>
+        </div>
+
+        <div class="panel-middle">
+          <div class="delivery-selector">
+            <label class="radio-label">
+              <input type="radio" name="deliveryType" value="A Domicilio" checked>
+              <span>Entrega a Domicilio</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="deliveryType" value="Para Recoger">
+              <span>Recoger en Sucursal</span>
+            </label>
+          </div>
+
+          <div class="total-box">
+            <span>Monto Total Estimado</span>
+            <strong id="orderTotal">$0 MXN</strong>
+          </div>
+        </div>
+
+        <button type="button" class="btn-whatsapp-elegant" id="btnSendOrder">
+          Confirmar Pedido vía WhatsApp
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 <strong>Pizza & Forno</strong>. Gastronomía & Tradición Artesanal.</p>
+  </footer>
+
+  <!-- Script Interactivo Sobrio -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const TELEFONO_WHATSAPP = "528611265737";
+      const cards = document.querySelectorAll(".pizza-card");
+      const orderText = document.getElementById("orderText");
+      const orderTotal = document.getElementById("orderTotal");
+      const btnSendOrder = document.getElementById("btnSendOrder");
+
+      let selectedList = [];
+
+      cards.forEach(card => {
+        card.addEventListener("click", () => {
+          card.classList.toggle("selected");
+          const btnText = card.querySelector(".select-text");
+
+          if (card.classList.contains("selected")) {
+            btnText.innerText = "✓ Seleccionado";
+          } else {
+            btnText.innerText = "Añadir al pedido";
+          }
+
+          updateOrder();
+        });
+      });
+
+      function updateOrder() {
+        selectedList = [];
+        let total = 0;
+
+        document.querySelectorAll(".pizza-card.selected").forEach(card => {
+          const title = card.getAttribute("data-product");
+          const price = parseFloat(card.getAttribute("data-price"));
+          selectedList.push({ title, price });
+          total += price;
+        });
+
+        orderTotal.innerText = `$${total.toLocaleString()} MXN`;
+
+        if (selectedList.length > 0) {
+          const names = selectedList.map(p => p.title).join(", ");
+          orderText.innerText = `Platillos: ${names}`;
+        } else {
+          orderText.innerText = "Seleccione los elementos de la carta para continuar.";
+        }
+      }
+
+      btnSendOrder.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        const deliveryType = document.querySelector('input[name="deliveryType"]:checked').value;
+        let mensaje = "Estimados Pizza & Forno, me gustaría realizar el siguiente pedido:\n\n";
+
+        if (selectedList.length > 0) {
+          mensaje += "*Detalle del pedido:*\n";
+          selectedList.forEach((item, index) => {
+            mensaje += `• ${item.title} ($${item.price} MXN)\n`;
+          });
+
+          const total = selectedList.reduce((acc, p) => acc + p.price, 0);
+          mensaje += `\n*Total estimado:* $${total.toLocaleString()} MXN\n`;
+          mensaje += `*Modalidad:* ${deliveryType}\n\n`;
+          mensaje += "¿Me podrían indicar el tiempo estimado de preparación?";
+        } else {
+          mensaje += "Deseo consultar la disponibilidad de la carta y consultar recomendaciones de hoy.";
+        }
+
+        const urlWhatsApp = `https://api.whatsapp.com/send?phone=${TELEFONO_WHATSAPP}&text=${encodeURIComponent(mensaje)}`;
+        window.open(urlWhatsApp, "_blank");
+      });
+    });
+  </script>
+</body>
+</html>
